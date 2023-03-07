@@ -14,7 +14,7 @@ function sendMessage() {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(data)
     //If & Then command
-    //
+    //test
   })
   .then(response => {
     if (response.ok) {
